@@ -8,6 +8,7 @@ function Home() {
   return (
     <div className="Home">
       <h3>Hello this is the Home page</h3>
+      <h4>This app is an example of using the vite builder with React.js</h4>
       <div className="card">
         <h5 class="frow row-start">Click Button To Count</h5>
         <button onClick={() => setCount((count) => count + 1)}>

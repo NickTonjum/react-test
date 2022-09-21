@@ -70,3 +70,13 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.main-link {
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.logo {
+  height: 85px;
+  width: 200px;
+}

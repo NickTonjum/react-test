@@ -15,4 +15,4 @@ Follow the wizard started by the extension to give your app a name, choose a fra
 The action will work to deploy your app (watch its progress in your repo's Actions tab) and, when successfully completed, you can view your app in the address provided in the extension's progress window by clicking the 'Browse Website' button that appears when the GitHub action has run.
 
 
-Website: https://black-beach-02a5ff71e.1.azurestaticapps.net
+Website: https://black-beach-02a5ff71e.1.azurestaticapps.net or https://nicktonjumtestreact.com

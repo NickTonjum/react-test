@@ -9,6 +9,7 @@ import {
 import About from './components/About';
 import Users from './components/Users';
 import Home from './components/Home';
+import logo from './logo.jpg';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,10 +19,13 @@ function App() {
       <Router>
         <div>
           <nav>
-            <div class="width-100 frow justify-start">
-              <Link class="mx-5" to="/">Home</Link>
-              <Link class="mx-5" to="/about">About</Link>
-              <Link class="mx-5" to="/users">Users</Link>
+            <div class="frow row-start">
+              <img src={logo} alt="Logo" class="logo" />
+              <div class="frow justify-start my-20">
+                <Link class="main-link px-10" to="/">Home</Link>
+                <Link class="main-link px-10" to="/about">About</Link>
+                <Link class="main-link px-10" to="/users">Users</Link>
+              </div>
             </div>
           </nav>
           <Routes>
