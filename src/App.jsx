@@ -7,7 +7,7 @@ import {
   Routes
 } from 'react-router-dom';
 import About from './components/About';
-import Users from './components/Users';
+import Comments from './components/Comments';
 import Home from './components/Home';
 import logo from './logo.jpg';
 
@@ -24,14 +24,14 @@ function App() {
               <div class="frow justify-start my-20">
                 <Link class="main-link px-10" to="/">Home</Link>
                 <Link class="main-link px-10" to="/about">About</Link>
-                <Link class="main-link px-10" to="/users">Users</Link>
+                <Link class="main-link px-10" to="/Comments">Comments</Link>
               </div>
             </div>
           </nav>
           <Routes>
             <Route path="/about" element={<About />}>
             </Route>
-            <Route path="/users" element={<Users />}>
+            <Route path="/Comments" element={<Comments />}>
             </Route>
             <Route path="/" element={<Home />}>
             </Route>

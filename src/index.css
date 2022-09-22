@@ -80,3 +80,8 @@ button:focus-visible {
   height: 85px;
   width: 200px;
 }
+
+.weight-bold {
+  font-weight: bolder;
+  text-decoration: underline;
+}
